@@ -10,10 +10,12 @@ using namespace std;
 #include "salas.h"
 #include "peliculas.h"
 #include "ventas.h"
+#include "salasPorPelicula.h"
 #include "submenuSalas.h"
 #include "submenuPeliculas.h"
 #include "submenuDirectores.h"
 #include "submenuVentas.h"
+#include "submenuSalasPorPelicula.h"
 #include "submenuConfiguracion.h"
 #include "funcionesGlobales.h"
 
@@ -32,7 +34,8 @@ int main(){
         cout<<"2) MENU SALAS "<<endl;
         cout<<"3) MENU PELICULAS"<<endl;
         cout<<"4) MENU VENTAS ENTRADAS"<<endl;
-        cout<<"5) MENU CONFIGURACION"<<endl;
+        cout<<"5) MENU SALAS POR PELICULA"<<endl;
+        cout<<"6) MENU CONFIGURACION"<<endl;
         cout<<"-----------------------------"<<endl;
         cout<<"0) FIN DEL PROGRAMA "<<endl;
         cout<<"SELECCIONE UNA DE LAS OPCIONES : ";
@@ -47,7 +50,9 @@ int main(){
                     break;
             case 4: SubMenuVentas();
                     break;
-            case 5: SubmenuConfiguracion();
+            case 5: SubMenuSalasPorPelicula();
+                    break;
+            case 6: SubmenuConfiguracion();
                     break;
             case 0: return 0;
                     break;

@@ -39,10 +39,12 @@
 		<Unit filename="peliculas.h" />
 		<Unit filename="protoFunciones.h" />
 		<Unit filename="salas.h" />
+		<Unit filename="salasPorPelicula.h" />
 		<Unit filename="submenuConfiguracion.h" />
 		<Unit filename="submenuDirectores.h" />
 		<Unit filename="submenuPeliculas.h" />
 		<Unit filename="submenuSalas.h" />
+		<Unit filename="submenuSalasPorPelicula.h" />
 		<Unit filename="submenuVentas.h" />
 		<Unit filename="ventas.h" />
 		<Extensions>
