@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1666812157 source:c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+	<cstring>
+	<windows.h>
+	"protoFunciones.h"
+	"fecha.h"
+	"directores.h"
+	"salas.h"
+	"peliculas.h"
+	"peliculasSalas.h"
+	"ventas.h"
+	"submenuSalas.h"
+	"submenuPeliculas.h"
+	"submenuDirectores.h"
+	"submenuPeliculasSala.h"
+	"submenuVentas.h"
+	"submenuConfiguracion.h"
+	"funcionesGlobales.h"
+
+1666640555 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\protofunciones.h
+
+1666379148 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\fecha.h
+
+1666468357 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\directores.h
+
+1666470683 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\salas.h
+
+1666468357 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\peliculas.h
+
+1666640653 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\ventas.h
+
+1666381607 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenusalas.h
+
+1666470539 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenupeliculas.h
+
+1666381607 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenudirectores.h
+
+1666381607 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenuventas.h
+
+1666380402 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenuconfiguracion.h
+
+1666811069 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\funcionesglobales.h
+
+1666812204 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\peliculassalas.h
+
+1666812204 c:\users\nahuel\downloads\tp2-cine actualizado\tp cine labo 2\submenupeliculassala.h
+
