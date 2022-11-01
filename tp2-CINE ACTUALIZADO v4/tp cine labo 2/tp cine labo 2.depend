@@ -213,3 +213,58 @@
 
 1667244669 c:\users\nahuel\downloads\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
 
+1667250966 source:c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+	<cstring>
+	<windows.h>
+	"protoFunciones.h"
+	"fecha.h"
+	"directores.h"
+	"salas.h"
+	"peliculas.h"
+	"peliculasSalas.h"
+	"ventas.h"
+	"Datos.h"
+	"submenuSalas.h"
+	"submenuPeliculas.h"
+	"submenuDirectores.h"
+	"submenuPeliculasSala.h"
+	"submenuVentas.h"
+	"submenuDatos.h"
+	"submenuConfiguracion.h"
+	"funcionesGlobales.h"
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\protofunciones.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\fecha.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\directores.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\salas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\peliculas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\peliculassalas.h
+
+1667337727 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\ventas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\datos.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenusalas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenupeliculas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenudirectores.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenupeliculassala.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenuventas.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenudatos.h
+
+1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenuconfiguracion.h
+
+1667337471 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
+

@@ -84,7 +84,7 @@ int validacionPrecio(int precio, int pago){
         return importe;
 
 
-return 0;
+//return 0;
 
 }
 

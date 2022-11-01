@@ -167,7 +167,7 @@ void cargar(){
     }
     }
 
-    Total=validacionPrecio(Pago,importe);
+    Total=validacionPrecio(importe,Pago);
     Total=Total*CantEntradas;
     cout<< Total<<endl;
 
@@ -183,6 +183,8 @@ void mostrar()
     cout<<"NUMERO DE VENTA: "<<Nventa<<endl;
     cout<<"ID DE LA PELICULA: ";
     cout<<idPelicula<<endl;
+    cout<<"ID DE LA SALA: ";
+    cout<<idSala<<endl;
     cout<<"FECHA DE VENTA"<<endl;
     fechaVenta.Mostrar();
     cout<<"CANTIDAD DE ENTRADAS: ";
