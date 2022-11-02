@@ -59,15 +59,22 @@ int validacionSalaPelicula(int id, int idp){
         {
             if(aux.getidPelicula()==idp)
             {
-                if(aux.getidSala()==id){
-                    return 1;
+
             }
+            else
+            {
+                return 0;
+            }
+              if(aux.getidSala()==id){
+                    return 1;
 
+              }
+              else
+              {
+                  return 0;
+              }
 
         }
-
-        }
-        return 0;
 }
 int validacionPrecio(int precio, int pago){
  int importe;

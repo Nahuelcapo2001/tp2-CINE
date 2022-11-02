@@ -84,7 +84,7 @@ void cargar(){
         cout<<"INGRESE EL ID DE LA PELICULA : " <<endl;
         cin>>idPelicula;
     }
-        while(validacionSalaPelicula(idSala,idPelicula)==1){
+        while(validacionSalaPelicula(idSala,idPelicula)==0){
         cout <<"\n EL ID INGRESADO NO ESTA CARGADO EN NINGUNA SALA, CARGE OTRO ID DE PELICULA! "<< endl;
         system("pause");
         system("cls");
