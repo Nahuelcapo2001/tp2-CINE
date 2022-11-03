@@ -38,6 +38,7 @@
 		<Unit filename="funcionesGlobales.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="modificarDirectores.h" />
+		<Unit filename="modificarSalas.h" />
 		<Unit filename="peliculas.h" />
 		<Unit filename="peliculasSalas.h" />
 		<Unit filename="protoFunciones.h" />
