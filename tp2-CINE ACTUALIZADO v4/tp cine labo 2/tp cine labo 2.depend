@@ -213,7 +213,7 @@
 
 1667244669 c:\users\nahuel\downloads\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
 
-1667250966 source:c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\main.cpp
+1667432324 source:c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\main.cpp
 	<iostream>
 	<cstdio>
 	<string.h>
@@ -235,6 +235,7 @@
 	"submenuDatos.h"
 	"submenuConfiguracion.h"
 	"funcionesGlobales.h"
+	"modificarDirectores.h"
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\protofunciones.h
 
@@ -248,7 +249,7 @@
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\peliculassalas.h
 
-1667342770 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\ventas.h
+1667431852 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\ventas.h
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\datos.h
 
@@ -256,7 +257,8 @@
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenupeliculas.h
 
-1667342770 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenudirectores.h
+1667432708 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenudirectores.h
+	"modificarDirectores.h"
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenupeliculassala.h
 
@@ -266,5 +268,7 @@
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenuconfiguracion.h
 
-1667342770 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
+1667431852 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
+
+1667433728 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\modificardirectores.h
 

@@ -20,6 +20,7 @@ using namespace std;
 #include "submenuDatos.h"
 #include "submenuConfiguracion.h"
 #include "funcionesGlobales.h"
+#include "modificarDirectores.h"
 
 
 

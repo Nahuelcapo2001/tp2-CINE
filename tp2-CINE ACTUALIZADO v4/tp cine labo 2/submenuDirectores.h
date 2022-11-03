@@ -1,5 +1,6 @@
 #ifndef SUBMENUDIRECTORES_H_INCLUDED
 #define SUBMENUDIRECTORES_H_INCLUDED
+#include "modificarDirectores.h"
 
 void SubMenuDirector();
 
@@ -17,7 +18,8 @@ void SubMenuDirector(){
         cout<<"-----------------------------"<<endl;
         cout<<"1) AGREGAR DIRECTOR"<<endl;
         cout<<"2) MOSTRAR DIRECTORES "<<endl;
-        cout<<"3) ELIMINAR DIRECTOR"<<endl;
+        cout<<"3) MODIFICAR DIRECTORES "<<endl;
+        cout<<"4) ELIMINAR DIRECTOR"<<endl;
         cout<<"0) VOLVER AL MENU PRINCIPAL "<<endl;
         cout<<"--------------------------------------"<<endl;
         cout<<"SELECCIONE UNA DE LAS OPCIONES : "<<endl;
@@ -33,7 +35,9 @@ void SubMenuDirector(){
                 reg.mostrardirectores();
                 system("pause");
             break;
-            case 3:
+            case 3:modificarDirector();
+                break;
+            case 4:
                 reg.EliminarDeDisco();
                 system("pause");
             case 0:
