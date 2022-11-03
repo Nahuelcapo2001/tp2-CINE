@@ -3,7 +3,7 @@
 void modificarDirector();
 bool modificarNombre();
 bool modificarNacionalidad();
-void modificarFnacimiento();
+bool modificarFnacimiento();
 
 void modificarDirector()
 {
@@ -47,7 +47,15 @@ void modificarDirector()
 
             break;
         case 3:
-            modificarFnacimiento();
+            if (modificarFnacimiento()==true)
+            {
+                cout<<"LA FECHA DE NACIMIENTO HA SIDO MODIFICADA CORRECTAMENTE"<<endl;
+                return;
+            }
+            else
+            {
+                cout<<"EL ID DE DIRECTOR NO ES VALIDO"<<endl;
+            }
             break;
         case 0:
             return;
@@ -102,9 +110,25 @@ bool modificarNacionalidad()
     return false;
 
 }
-void modificarFnacimiento()
+bool modificarFnacimiento()
 {
-
+director obj;
+    int pos=0,id;
+    Fecha nac;
+    cout<<"INGRESE EL NUMERO DE ID DEL DIRECTOR A MODIFICAR: ";
+    cin>>id;
+    while(obj.leerEnDisco(pos++))
+    {
+        if(id==obj.getidDirector()&& obj.getEstado()==true)
+        {
+            cout<<"INGRESE LA FECHA DE NACIMIENTO DEL DIRECTOR: ";
+            nac.Cargar();
+            obj.setFechaNacimiento(nac);
+            obj.ModificarEnDisco(pos-1);
+            return true;
+        }
+    }
+    return false;
 }
 
 
