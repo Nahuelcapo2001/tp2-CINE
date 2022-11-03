@@ -21,6 +21,7 @@ using namespace std;
 #include "submenuConfiguracion.h"
 #include "funcionesGlobales.h"
 #include "modificarDirectores.h"
+#include "modificarSalas.h"
 
 
 

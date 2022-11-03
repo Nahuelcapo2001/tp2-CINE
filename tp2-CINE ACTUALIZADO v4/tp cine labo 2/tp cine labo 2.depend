@@ -213,7 +213,7 @@
 
 1667244669 c:\users\nahuel\downloads\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
 
-1667432324 source:c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\main.cpp
+1667477403 source:c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\main.cpp
 	<iostream>
 	<cstdio>
 	<string.h>
@@ -236,6 +236,7 @@
 	"submenuConfiguracion.h"
 	"funcionesGlobales.h"
 	"modificarDirectores.h"
+	"modificarSalas.h"
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\protofunciones.h
 
@@ -253,7 +254,8 @@
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\datos.h
 
-1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenusalas.h
+1667477579 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenusalas.h
+	"modificarSalas.h"
 
 1667250966 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\submenupeliculas.h
 
@@ -271,4 +273,6 @@
 1667431852 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\funcionesglobales.h
 
 1667434477 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\modificardirectores.h
+
+1667477403 c:\users\test\documents\github\tp2-cine\tp2-cine actualizado v4\tp cine labo 2\modificarsalas.h
 
