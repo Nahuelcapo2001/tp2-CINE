@@ -2,7 +2,7 @@
 #define MODIFICARDIRECTORES_H_INCLUDED
 void modificarDirector();
 bool modificarNombre();
-void modificarNacionalidad();
+bool modificarNacionalidad();
 void modificarFnacimiento();
 
 void modificarDirector()
@@ -35,7 +35,16 @@ void modificarDirector()
 
             break;
         case 2:
-            modificarNacionalidad();
+            if(modificarNacionalidad()==true)
+            {
+                cout<<"LA NACIONALIDAD HA SIDO MODIFICADA CORRECTAMENTE"<<endl;
+                return;
+            }
+            else
+            {
+                cout<<"EL ID DE DIRECTOR NO ES VALIDO"<<endl;
+            }
+
             break;
         case 3:
             modificarFnacimiento();
@@ -72,8 +81,25 @@ bool modificarNombre()
 
 }
 
-void modificarNacionalidad()
+bool modificarNacionalidad()
 {
+  director obj;
+    int pos=0,id;
+    char nac[20];
+    cout<<"INGRESE EL NUMERO DE ID DEL DIRECTOR A MODIFICAR: ";
+    cin>>id;
+    while(obj.leerEnDisco(pos++))
+    {
+        if(id==obj.getidDirector()&& obj.getEstado()==true)
+        {
+            cout<<"INGRESE LA NACIONALIDAD DEL DIRECTOR: ";
+            cargarCadena(nac,19);
+            obj.setNacionalidad(nac);
+            obj.ModificarEnDisco(pos-1);
+            return true;
+        }
+    }
+    return false;
 
 }
 void modificarFnacimiento()
