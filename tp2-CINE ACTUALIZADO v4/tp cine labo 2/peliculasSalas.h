@@ -66,6 +66,8 @@ void mostrarSalasPorPelicula()
 
 void cargar(){
     estado=true;
+    pelicula obj;
+    int pos=0;
     cout<<"INGRESE EL ID DE LA PELICULA: " <<endl;
     cin>>idPelicula;
         while(validacionIDpelicula(idPelicula)==0){
@@ -74,6 +76,13 @@ void cargar(){
         system("cls");
         cout<<"INGRESE EL ID DE LA PELICULA : " <<endl;
         cin>>idPelicula;
+    }
+    while(obj.leerEnDisco(pos++))
+    {
+        if(obj.getidPelicula()==idPelicula)
+        {
+            setNombrePelicula(obj.getNombrePelicula());
+        }
     }
     cout<<"INGRESE ID DE SALA: ";
     cin>>idSala;
@@ -92,6 +101,8 @@ void mostrar()
     if(estado==true)
     {
     cout<<"ID DE LA PELICULA: "<<idPelicula<<endl;
+    cout<<"NOMBRE DE LA PELICULA: ";
+    cout<<nombrePelicula<<endl;
     cout<<"SALA EN LA QUE SE ENCUENTRA DISPONIBLE: "<<idSala<<endl;
     cout<<endl;
     }
